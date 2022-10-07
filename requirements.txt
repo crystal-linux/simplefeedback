@@ -2,3 +2,4 @@ Flask[async]
 gunicorn
 Flask-Limiter
 discord-webhook
+pyyaml
