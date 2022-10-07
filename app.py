@@ -31,7 +31,7 @@ app.secret_key = "SuperStrongAndComplicated"
 limiter = Limiter(
     app,
     key_func=get_remote_address,
-    default_limits=["20 per day", "5 per hour"],
+    default_limits=["500 per day", "100 per hour"],
     storage_uri="memory://",
 )
 
